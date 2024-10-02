@@ -1,20 +1,20 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
+import { FaAws } from "react-icons/fa";
 import {
   DiJavascript1,
   DiReact,
   DiNodejs,
   DiMongodb,
-  DiGit,
   DiJava,
 
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
-  SiSolidity,
-  SiPostgresql,
+  SiMysql,
+  SiSpringboot,
+
+  SiTypescript,
 
 } from "react-icons/si";
 
@@ -27,8 +27,6 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
-   
-     
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
       </Col>
@@ -36,25 +34,21 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+      <SiTypescript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>
   
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+      <SiSpringboot />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+      <FaAws />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
+      <SiMysql />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
- 
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
       </Col>
