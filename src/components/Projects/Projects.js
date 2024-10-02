@@ -20,10 +20,14 @@ function Projects() {
             <ProjectCard
              
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="HR Management System"
+              description="The HR management system is designed to streamline employee management and payroll 
+              operations. Built with React.js for the frontend, Java Spring Boot for the backend, and PostgreSQL 
+              for database management, the system enables HR managers to easily add team members, track attendance, 
+              and generate monthly salary reports. Its intuitive interface allows for smooth navigation, making it simple to 
+              manage employee data and monitor attendance in real-time. At the end of each month, the system automatically calculates 
+              salaries based on attendance, reducing manual effort and improving overall efficiency in handling payroll processes."
+              ghLink="https://github.com/Gaganpreet001/HRMS/tree/master"
             />
           </Col>
 
@@ -31,34 +35,52 @@ function Projects() {
             <ProjectCard
              
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Blog-Website"
+              description="The blog website is designed to provide a seamless platform for users to create, post, 
+              and read blogs. Built using React JSX for the frontend and MongoDB with Mongoose for the database, 
+              it offers an intuitive interface for users to easily write and publish new blog posts. 
+              The platform also allows for smooth browsing, enabling readers to explore a variety of blogs 
+              effortlessly. The use of MongoDB ensures efficient data management and scalability, 
+              while React JSX delivers a dynamic and responsive user experience, fostering a space for 
+              content creation and discovery."
+              ghLink="https://github.com/Gaganpreet001/Blog-Website"
+             
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Instagram Clone"
+              description="The Instagram clone is a fully functional social media platform replicating the 
+              core features of Instagram. Developed using React.js for the frontend and MongoDB with Mongoose 
+              for database management, it allows users to create accounts, post photos, like and comment on posts, 
+              follow other users, and explore content. The responsive and dynamic interface ensures a smooth, 
+              Instagram-like experience, while MongoDB ensures efficient handling of large volumes of user data 
+              and media. This clone offers all the essential features for social interaction, content sharing, 
+              and real-time engagement in a familiar and user-friendly environment."
+              ghLink="https://github.com/Gaganpreet001/instagramClone/tree/main/instagram-clone"
+                        
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Text Editor"
+              description="The text editor is a feature-rich application developed in Java, utilizing a 
+              linked list data structure to efficiently manage and edit text. By leveraging linked lists, the 
+              editor provides smooth performance for operations like inserting, deleting, and modifying text, 
+              even with large documents. This structure ensures optimal memory usage and faster manipulation of 
+              content compared to traditional array-based implementations. The editor offers standard text editing 
+              functionalities while maintaining high performance, making it suitable for handling extensive 
+              documents with ease and precision."
+              ghLink="https://github.com/Gaganpreet001/Text-Editor"
+            
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               isBlog={false}
               title="Ai For Social Good"
@@ -66,9 +88,9 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               isBlog={false}
               title="Face Recognition and Emotion Detection"
@@ -77,7 +99,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
